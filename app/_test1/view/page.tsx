@@ -1,6 +1,6 @@
 const Page = () => {
     return (
-        <div>Testing Sub Routes - rendered at /subroute</div>
+        <div>This gets never rendered!</div>
     );
 };
 
