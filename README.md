@@ -1,7 +1,7 @@
 <div align="center">
 <picture width="400">
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Abhishek-Mallick/universal-box/assets/106394426/51e61d7f-7c03-4065-ac7c-f8ef6d0dce5d" width="400">
-  <img alt="Togetherly Logo" src="https://github.com/Abhishek-Mallick/Togetherly/assets/106394426/ee86c569-1b75-4e51-a89e-1716509e1705" width="400">
+  <img alt="Togetherly Logo" src="https://github.com/Abhishek-Mallick/Togetherly/assets/106394426/d69f10b6-7e75-4150-95bc-f074c714b35e" width="400">
 </picture>
 <br>
 <br/>
