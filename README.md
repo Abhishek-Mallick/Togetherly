@@ -1,11 +1,7 @@
-<div align="center">
-<picture width="400">
-  <source media="(prefers-color-scheme: dark)" srcset="" width="400">
-  <img alt="Togetherly Logo" src="https://github.com/Abhishek-Mallick/Togetherly/assets/106394426/d69f10b6-7e75-4150-95bc-f074c714b35e" width="400">
-</picture>
-<br>
-<br/>
-</div>
+<img src="https://github.com/Abhishek-Mallick/Togetherly/assets/106394426/30a9c599-5bdb-463d-bee0-6df8ce9a6d03" align="right" height="200px">
+
+## Togetherly
+
 
 ## Getting Started
 
