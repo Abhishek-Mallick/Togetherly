@@ -5,14 +5,6 @@ import Head from "next/head";
 export const Landing = () => {
   return (
     <>
-      <Head>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
-        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-        <script src="https://unpkg.com/split-type"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-      </Head>
       <style
         dangerouslySetInnerHTML={{
           __html: "\n  ::-webkit-scrollbar{\n    display:None;\n  }\n  ",
@@ -80,16 +72,7 @@ export const Landing = () => {
         }}
       />
 
-      <div className="tag-manager-html-embed w-embed w-iframe">
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          &lt;iframe
-          src="https://www.googletagmanager.com/ns.html?id=GTM-WXWNZFB"
-          height="0" width="0"
-          style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;
-        </noscript>
-        {/* End Google Tag Manager (noscript) */}
-      </div>
+      <div className="tag-manager-html-embed w-embed w-iframe"></div>
       <div className="global">
         <div className="html w-embed">
           <style
@@ -143,7 +126,7 @@ export const Landing = () => {
           <div className="c-bar blurred-three" />
         </div>
       </div>
-      <nav mode="" className="navigation">
+      <nav className="navigation">
         <div className="container-small">
           <div className="nav__parent">
             <a
@@ -237,7 +220,7 @@ export const Landing = () => {
               <div className="ham-menu__line-two" />
               <div className="ham-menu__line-three" />
             </div>
-            <div mode="dark" className="mobile__menu-wrapper">
+            <div className="mobile__menu-wrapper">
               <div className="mobile__links-wrapper">
                 <div className="accordion_item">
                   <div className="accordion_trigger mobile-links">
@@ -724,7 +707,7 @@ export const Landing = () => {
           </div>
           <div className="bright-line" />
         </section>
-        <section mode="dark" className="section__products">
+        <section className="section__products" mode="dark">
           <div className="padding-section__medium">
             <div
               id="w-node-_17cba81f-873f-9727-e773-c84eb4726a49-2de7c988"
@@ -742,7 +725,7 @@ export const Landing = () => {
                     </div>
                     <h2 className="h3 is--bgtext-white text-balanced">
                       Collabarte with other developers in real time, and learn
-                      from each other's code.
+                      from each other&aposs code.
                     </h2>
                     <div className="sb-xxl" />
                     <ul role="list" className="list">
@@ -2411,7 +2394,7 @@ export const Landing = () => {
             </div>
           </div>
         </section>
-        <section mode="dark" className="section_metrics">
+        <section className="section_metrics" mode="dark">
           <div className="padding-section__medium">
             <div className="container-medium">
               <div className="metrics__parent">
@@ -2916,7 +2899,7 @@ export const Landing = () => {
                     <div className="pill__circle" />
                     <div className="p-tiny">A new standard in CX.</div>
                   </div>
-                  <h2 className="h3">The world's most autonomous agent</h2>
+                  <h2 className="h3">The world&aposs most autonomous agent</h2>
                   <div className="sb-xxl" />
                   <a href="/book-a-demo" className="button w-inline-block">
                     <div className="button__icon-text-wrapper">
@@ -3113,7 +3096,7 @@ export const Landing = () => {
                         >
                           <div className="accordion_content-spacer">
                             <p className="p-body is--bgtext-darker">
-                              Agents' AI sidekick that crafts responses 10x
+                              Agents&apos AI sidekick that crafts responses 10x
                               faster, impeccably phrased, and globally
                               understood in over 100 languages. From sharpening
                               syntax to tailoring tone, Siena Copilot transforms
@@ -3155,7 +3138,7 @@ export const Landing = () => {
                         >
                           <div className="accordion_content-spacer">
                             <p className="p-body is--bgtext-darker">
-                              Unlock instant, accurate responses – Siena taps
+                              Unlock instant, accurate responses â Siena taps
                               into your wealth of data sources such as Google
                               Docs, PDFs, help centers or product catalogues to
                               deliver the right information, right when your
@@ -3509,11 +3492,11 @@ export const Landing = () => {
                         <div className="testimonial__content">
                           <div className="testimonial__rich-text w-richtext">
                             <h3>
-                              Siena’s unique responses are what people love
+                              Sienaâs unique responses are what people love
                               most.{" "}
                             </h3>
                             <p>
-                              We’ve had customers say her answers inspired them
+                              Weâve had customers say her answers inspired them
                               to purchase, because they just felt so comfortable
                               with her. They feel that safety with Siena, which
                               helps them purchase.
@@ -3624,7 +3607,7 @@ export const Landing = () => {
                               Siena is incredibly intuitive<em>.</em>
                             </h3>
                             <p>
-                              We’re saving $30,000 to $40,000 or more on
+                              Weâre saving $30,000 to $40,000 or more on
                               customer support each year, plus the countless
                               hours from our management team overseeing
                               responses.{" "}
@@ -3739,7 +3722,7 @@ export const Landing = () => {
                             <p>
                               I feel like since we had Siena, it really truly
                               saved us so much time and headache. Without Siena,
-                              we would've been drowning in the amount of
+                              we would&aposve been drowning in the amount of
                               incoming tickets.
                             </p>
                           </div>
@@ -3851,7 +3834,7 @@ export const Landing = () => {
                               support.
                             </h3>
                             <p>
-                              They’re turning customer support into a revenue
+                              Theyâre turning customer support into a revenue
                               generating channel and can service Social Media
                               comments and email among others.
                             </p>
@@ -3958,7 +3941,7 @@ export const Landing = () => {
                         <div className="testimonial__content">
                           <div className="testimonial__rich-text w-richtext">
                             <h3>
-                              Siena truly lives up to what the team said she’s
+                              Siena truly lives up to what the team said sheâs
                               capable of.
                             </h3>
                             <p>
@@ -4071,14 +4054,14 @@ export const Landing = () => {
                         <div className="testimonial__content">
                           <div className="testimonial__rich-text w-richtext">
                             <h3>
-                              Can't see any reason why a brand would not use
-                              Siena's magic.
+                              Can&apost see any reason why a brand would not use
+                              Siena&aposs magic.
                             </h3>
                             <p>
-                              Siena's incredible technology allows us to become
-                              more passive on hands-on CX, in turn empowering
-                              our team to focus on other opportunities continue
-                              brand growth.
+                              Siena&aposs incredible technology allows us to
+                              become more passive on hands-on CX, in turn
+                              empowering our team to focus on other
+                              opportunities continue brand growth.
                             </p>
                           </div>
                           <div className="sb-l" />
@@ -4188,8 +4171,8 @@ export const Landing = () => {
                             </h3>
                             <p>
                               but when we did the preliminary screening with
-                              Siena, we quickly thought, ‘Yeah, this is the one
-                              we’re going to go with.'
+                              Siena, we quickly thought, &aposYeah, this is the
+                              one we&aposre going to go with.&apos
                             </p>
                           </div>
                           <div className="sb-l" />
@@ -4342,7 +4325,7 @@ export const Landing = () => {
         </div>
       </main>
 
-      <footer mode="dark" className="footer">
+      <footer className="footer" mode="dark">
         <div className="padding-section__medium footer">
           <div className="container-small">
             <div className="footer__child">
@@ -4499,7 +4482,7 @@ export const Landing = () => {
             <div className="bright-line footer" />
             <div className="footer__bottom-wrap">
               <div className="p-small">
-                Made with ♥️ togetherly ©{" "}
+                Made with 💛 Togetherly ©{" "}
                 <span className="copyright-year">2024</span>
               </div>
             </div>
