@@ -8,7 +8,7 @@ import {
   Unauthenticated,
   ConvexReactClient,
 } from "convex/react";
-import Landing from "@/components/landing/page";
+import  { Landing } from "@/components/landing/page";
 import { Loading } from "@/components/auth/loading";
 
 interface ConvexClientProviderProps {
