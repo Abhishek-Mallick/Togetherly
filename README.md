@@ -1,6 +1,6 @@
 # Togetherly 
 
-<img src="https://marvelapp.com/wp-content/uploads/2021/12/Artboard-Copy-5.png" align="right" height="300px">
+<img src="https://marvelapp.com/wp-content/uploads/2021/12/Artboard-Copy-5.png" align="right" height="200px">
 
 Togetherly is your ultimate real-time collaboration hub, effortlessly breaking geographical barriers. Communicate ideas with interactive whiteboards. Create organizations, invite members, and start and schedule screens seamlessly. Join with thousands of users in a session, performing 80% faster than competitors without lag. Fast, efficient, and powered by Next.js and Convex,  it's the ultimate choice for boosting productivity in institutions and corporate meetings.<br>
 This innovative space fosters creativity and synergy as team members
@@ -10,7 +10,7 @@ assets tools, templates, and resources that enhance the collaborative
 process.
 
 
-# Installation
+## Installation
 
 1. **Clone the repository:**
 
@@ -47,6 +47,10 @@ process.
  npm install
  npm run dev
 ```
+
+## Architecture | Workflow
+
+![Untitled-2024-02-22-2153](https://github.com/Abhishek-Mallick/Togetherly/assets/83288891/2639da41-b340-471c-b543-cb81d2c2d943)
 
 ## Webapp Preview
 
